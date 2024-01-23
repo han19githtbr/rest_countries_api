@@ -15,7 +15,6 @@ nav {
 .wrapper span{
   position: relative;
   display: inline-block;
-  color: white;
   justify-content: center;
   font-size: 2rem;
   text-transform: uppercase;
@@ -67,3 +66,4 @@ div {
 :host-context(.dark) nav {
   background-color: var(--d-element);
 }
+
