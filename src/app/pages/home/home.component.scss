@@ -20,11 +20,19 @@
     justify-content: space-between;
   }
   app-dropdown {
+    transition: transform 0.2s;
     width: 60%;
     @media (min-width: 376px) {
       width: 25%;
     }
   }
+
+  app-dropdown:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    z-index: 999;
+  }
+
 }
 
 .search_filter {
